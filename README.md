@@ -8,5 +8,7 @@ https://github.com/user-attachments/assets/745b107b-d62f-421b-b797-a273c51ffdcc
 4. `bat` (you can easily replace the bat command with cat or anything else though)
 
 # Important
-> By default, it stores all the notes in ~/Documents/notes.
+> By default, it stores all the notes in ~/Documents/notes.\
 > Make sure you also have the `search` script in your $PATH.
+>> `search` is a simple wrapper for ripgrep, and can be used outside `notes` as well.\
+>>> ex: `search md` will only look inside .md files in the current directory.
